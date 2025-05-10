@@ -8,9 +8,9 @@ import spacy.training
 @spacy.registry.tokenizers("custom_tokenizer")
 def custom_tokenizer():
   def custom_tokenizer(nlp):
-    prefix_re = re.compile(r'[.,;:?!(\[\'"</]')
-    suffix_re = re.compile(r'[.,;:?!)\]\'">■™]')
-    infix_re = re.compile(r'[-/+=&]')
+    prefix_re = re.compile(r'')
+    suffix_re = re.compile(r'')
+    infix_re = re.compile(r'')
 
     return Tokenizer(
           nlp.vocab,

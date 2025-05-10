@@ -1,0 +1,8 @@
+Team ID: ata2425ds
+Task ID: T61
+Run ID: trf
+Type of training applied: the training is based on the spaCy library, in particular the command "python -m spacy train ..." is used.
+Pre-processing methods: data are converted into .spacy format for spaCy. The process uses the "en_core_Web_trf" pipeline.
+Training data used: the training data consists of platinum, gold, silver and bronze collections.
+Relevant details of the run: the spaCy pipeline used for this run is the English transformer pipeline "en_core_Web_trf" with the transformer "roberta-base".
+GitHub: https://github.com/manuelrigobello/ATA2425
